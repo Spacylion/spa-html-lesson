@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+
+body {
+  background-color: #1f1f1f;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: #f8f7f9;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #efe3de;
+  border-radius: 14px;
+  box-shadow: 8px 14px 14px 5px rgba(49, 152, 196, 0.35);
+}
+.wrapper__border {
+}
+.header {
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0 15px;
+}
+.header__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  width: 95px;
+  height: 95px;
+  background-image: url(../imgs/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header__title {
+  margin-left: 10px;
+}
+.header__title p {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__menu {
+  width: calc(50%-64px);
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu__list {
+  list-style: none;
+  display: flex;
+}
+.menu__list li {
+  margin-right: 10px;
+}
+.menu__list li:nth-child(4) {
+  margin-right: 0px;
+}
+
+.menu__link {
+  color: #f8f7f9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navbar-container__devider {
+  margin: 0 64px;
+  padding: 10px;
+}
+.navbar-container__devider span {
+  color: #f8f7f9;
+}
+.navbar-container__socials {
+  margin-right: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-container__socials a {
+}
+.instagram {
+  margin-right: 48px;
+}
+.page {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  margin-top: 10vh;
+}
+.container__block {
+  display: flex;
+  flex: 1;
+}
+.col-left {
+  flex: 1;
+  z-index: 10;
+
+  padding: 10px;
+  text-align: left;
+  margin-left: 83px;
+}
+.title-welcome {
+}
+.title-welcome p {
+  color: #f8f7f9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text-main {
+  margin-top: 20px;
+}
+.text-wrapper {
+  margin-top: 36px;
+}
+.text-wrapper p {
+  color: rgba(248, 247, 249, 0.5);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container-action {
+  margin: 42px auto;
+  width: 490px;
+  height: auto;
+}
+
+.container-action p {
+  color: rgba(248, 247, 249, 0.5);
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.container-btn {
+  border-radius: 16px;
+  width: 301px;
+  height: 68px;
+  border: 2px solid #f8f7f9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px auto;
+}
+.container-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px auto;
+  border-radius: 4px;
+}
+.container__form {
+  margin: auto;
+  width: 300px;
+}
+.container-btn p {
+  color: #f8f7f9;
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.col-right {
+  flex: 1;
+}
+.avatar {
+}
+.mask {
+}
+.avatar__bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
